@@ -1,0 +1,42 @@
+
+.listItem-content {
+    display: flex;
+}
+
+.listItem-content div{
+    flex: 1;
+}
+.listItem-content img{
+    display:inline-block;
+    padding-right: 3px;
+    max-width: 100%;
+}
+
+.listItem-content .listItem-abstract {
+    flex: 1.5;
+    padding-right: 8px;
+    color: #6e6e6e;
+    font-size: 13px;
+}
+.ant-list-item.ant-list-item-no-flex{
+    position: relative;
+    padding:  0 18px 18px 18px;
+}
+
+.listItem-tag {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    padding: .1em  1.2em .3em 1.2em;
+    border-radius: 0 0 .3em .3em;
+    font-size: 11px;
+    background: #b6b6b6;
+    color: #fff;
+}
+
+.listItem-title {
+    padding: 10px 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}

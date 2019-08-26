@@ -1,0 +1,22 @@
+#hotAuthor .ant-avatar {
+    margin: 10px 16px;
+}
+
+#hotAuthor .ant-list-item-meta {
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8; 
+}
+
+#hotAuthor .ant-list-split .ant-list-item{
+    border-bottom: none;
+    padding: 0;
+}
+
+#hotAuthor .ant-list-item-meta-title {
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+#hotAuthor .ant-list-item-meta-description{
+    color: #8c8c8c;
+}

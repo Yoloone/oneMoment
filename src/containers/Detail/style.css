@@ -1,0 +1,33 @@
+
+#title {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#content {
+    color: #2f2f2f;
+    line-height: 1.7em;
+}
+
+#detail .ant-list-header {
+    border-top: .8px solid #21BBA6;
+    border-bottom:  .8px solid #21BBA6;
+}
+
+#detail .ant-list-item {
+    border-bottom:  .8px solid #21BBA6;
+    align-items: initial;
+}
+
+#detail .ant-list-item-meta-title {
+    color: #888;
+}
+
+#detail .ant-list-item-meta-description {
+    color: #2f2f2f;
+}
+
+#detail .ant-list-items {
+    padding: 1em;
+}

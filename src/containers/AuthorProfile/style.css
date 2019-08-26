@@ -1,0 +1,23 @@
+#profile-panel {
+    height: 170px;
+    margin-top: -2px;
+    padding-top: 30px;
+    text-align: center;
+    background: #21BBA6;
+    color: #fff;
+}
+#profile-panel p{
+    margin-top: 5px;
+}
+
+#profile-panel .ant-avatar-lg{
+    width: 60px;
+    height: 60px;
+}
+#resume {
+    padding: 1em;
+    color: #4a4a4a;
+}
+#authorProfile .ant-list-items {
+    padding: 0 1em;
+}

@@ -1,0 +1,35 @@
+.columns__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: repeat(10, 1fr); */
+    grid-gap: 1px 1px;
+    align-items: center;
+    justify-items: stretch;
+    background: #e3e3e3;
+}
+
+.columns__items {
+    /* border: #e3e3e3 0.8px solid; */
+    padding: 15px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.columns__items h3{
+    margin-top: 0.3em;
+    color: #21BBA6;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.columns__items h4{
+    margin-top: 0.8em;
+    color: #7f7f7f;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.columns__items img{
+    width: 36px;
+    height: 36px;
+}

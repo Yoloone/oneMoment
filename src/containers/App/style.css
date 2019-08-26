@@ -1,0 +1,30 @@
+body {
+  background: #f8f8f8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #21BBA6;
+}
+
+ul {
+  list-style: none;
+}
+html *{
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  margin: 1em;
+}
+
+.ant-list-header {
+  color: #a3a3a3;
+  padding: 10px;
+  font-size: 15px;
+}
+
