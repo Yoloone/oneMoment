@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React仿豆瓣一刻webApp
 
-## Available Scripts
+- 技术栈
 
-In the project directory, you can run:
+1. 框架-react
+2. 脚手架-create-react-app
+3. 状态层管理-redux, react-redux
+4. 路由管理-react-router-dom
+5. 异步action-react-thunk
+6. 网络请求-fetch
+7. 本地跨域代理-http-proxy-middleware 
+8. UI框架-antd
 
-### `npm start`
+- API接口
+  豆瓣一刻提供的接口：https://moment.douban.com/api 
+- 实现功能
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. 首页查看今日一刻精选
+![首页查看今日一刻精选](https://github.com/Yoloone/oneMoment/blob/master/img/m1.gif)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+2. 查看文章详情以及用户评论，收藏文章
+![](https://github.com/Yoloone/oneMoment/blob/master/img/m3.gif)
 
-### `npm test`
+3. 查看往期内容，可选择日期搜索
+![](https://github.com/Yoloone/oneMoment/blob/master/img/m2.gif)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. 查看推荐作者和热门作者，参看作者简介以及发表文章
+![](https://github.com/Yoloone/oneMoment/blob/master/img/m4.gif)
 
-### `npm run build`
+5. 查看所有栏目分类，根据分类获取文章列表
+![](https://github.com/Yoloone/oneMoment/blob/master/img/m5.gif)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+6. 用户登录后，可收藏喜欢的文章，查看收藏列表
+![](https://github.com/Yoloone/oneMoment/blob/master/img/m6.gif)
