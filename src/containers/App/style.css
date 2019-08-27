@@ -28,3 +28,8 @@ html *{
   font-size: 15px;
 }
 
+img {
+  display:inline-block;
+  max-width: 100%;
+  /* padding: 2px; */
+}

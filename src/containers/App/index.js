@@ -11,11 +11,14 @@ import AuthorProfile from '../AuthorProfile';
 import Login from '../Login';
 import PrivateRoute from '../PrivateRoute';
 import './style.css'
+import { BackTop } from 'antd';
 
 class App extends Component {
   render() {
     return (
       <Router>
+        <BackTop />
+
         <Switch>
           <Route path="/column" component={Column} />
           <Route path="/login" component={Login} />

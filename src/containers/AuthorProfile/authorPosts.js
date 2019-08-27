@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { List, Icon } from 'antd';
+import { Link } from 'react-router-dom';
 
 class AuthorPosts extends Component {
     componentDidMount() {
@@ -16,9 +17,9 @@ class AuthorPosts extends Component {
                     renderItem={item => (
                         <List.Item key={item.id}>
                             <List.Item.Meta
-                                title={item.title}
+                                title={<Link to={`/artileDetail/${item.id}`}>{item.title}</Link>}
                             />
-                            <div><Icon type='heart'/>&nbsp;{item.like_count}</div>
+                            <div><Icon type='heart' />&nbsp;{item.like_count}</div>
                         </List.Item>
                     )}
                 />

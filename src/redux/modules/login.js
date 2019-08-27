@@ -22,7 +22,7 @@ export const actions = {
                     }
                     localStorage.setItem('user', username);
                     localStorage.setItem('isLogin', true);
-                    dispatch({type: actionTypes.LOGIN_SUCCESS});
+                    dispatch({ type: actionTypes.LOGIN_SUCCESS });
                     resolve();
                 }, 1000);
             })
@@ -30,6 +30,7 @@ export const actions = {
     },
 
     logout: () => {
+        localStorage.removeItem(localStorage.getItem('user'));
         localStorage.removeItem('user');
         localStorage.removeItem('isLogin');
         return {
@@ -48,7 +49,7 @@ const reducer = (state = initialState, action) => {
         case actionTypes.LOGIN_REQUEST:
             return { ...state, isFetching: true };
         case actionTypes.LOGIN_SUCCESS:
-            return { ...state, isLogin: true, isFetching: false };
+            return { ...state, isLogin: true, isFetching: false, username: localStorage.getItem('user') };
         case actionTypes.LOGIN_FAILURE:
             return { ...state, isFetching: false };
         case actionTypes.LOGOUT:
@@ -59,5 +60,7 @@ const reducer = (state = initialState, action) => {
 }
 
 export const isLogin = state => state.login.isLogin;
+
+export const getUsername = state => state.login.username;
 
 export default reducer;

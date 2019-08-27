@@ -1,6 +1,7 @@
 import urls from '../../utils/url';
 import { FETCH_DATA } from '../middleware/api';
 import { schema } from './entities/comments';
+import { stat } from 'fs';
 
 //actions
 const actionTypes = {
@@ -43,7 +44,6 @@ const fetchArticleDetail = requestURL => ({
             actionTypes.FETCH_ARTICLE_DETAIL_FAILURE
         ],
         schema: {
-            name: 'content'
         }
     }
 });
@@ -86,7 +86,7 @@ const changeIsLike = (postId, isChange) => {
 const initialState = {
     isFetching: false,
     commentIds: [],
-    content: '',
+    content: {},
     isLike: false,
 }
 
@@ -111,8 +111,10 @@ const reducer = (state = initialState, action) => {
 
 //selecor
 export const getArticleDetail = state => {
-    return state.details.content;
+    return state.details.content['content'];
 }
+
+export const getArticlePhotos = state => state.details.content['photos'];
 
 export const getArticleComments = state => {
     return state.details.commentIds.map(id => state.entities.comments[id]);

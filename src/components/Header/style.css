@@ -22,9 +22,20 @@
     flex: 1;
     text-align: right;
 }
+
+.header-extra i {
+    margin-right: 10px;
+}
 .ant-drawer-content {
     background: #e7eaef;
 }
+ 
+.ant-drawer-content p {
+    font-size: 14px;
+    color: #21BBA6;
+    padding: 5px 0 0 2px;
+}
+
 .drawer-list li {
     padding: .8em 0;
     font-size: 18px;

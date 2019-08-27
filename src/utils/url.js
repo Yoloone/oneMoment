@@ -5,6 +5,6 @@ export default {
     getRecAuthors: () => '/api/auth_authors/rec',
     getHotAuthors: () => '/api/auth_authors/all?count=20',
     getArticleDetail: postId => `/api/post/${postId}`,
-    getArticleComments: postId => `/api/post/${postId}/popular_comments`,
+    getArticleComments: postId => `/api/post/${postId}/comments?count=20`,
     getAuthorPosts: authorId => `/api/author/${authorId}/posts`,
 }

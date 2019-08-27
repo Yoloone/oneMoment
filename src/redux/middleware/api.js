@@ -74,14 +74,14 @@ const normalizeData = (data, schema) => {
     const { id, name } = schema;
     let kvObj = {};
     let ids = [];
-    data = data[name];
+    data = name ? data[name] : data;
     if (Array.isArray(data)) {
         data.forEach(item => {
             kvObj[item[id]] = item;
             ids.push(item[id]);
         });
     } else {
-       return data;
+        return data;
     }
     return {
         [name]: kvObj,

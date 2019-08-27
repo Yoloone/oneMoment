@@ -21,7 +21,7 @@ class Login extends Component {
             <div>
                 <Header title="用户登录" type="arrow-left"
                 />
-                <LoginForm onSubmit={login} />
+                <LoginForm login={login} />
             </div>
         );
     }
