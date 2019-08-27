@@ -16,19 +16,14 @@ React仿豆瓣一刻webApp
 - 实现功能
 
 1. 首页查看今日一刻精选
-![首页查看今日一刻精选](https://github.com/Yoloone/oneMoment/blob/master/img/m1.gif)
-
+![enter image description here](https://github.com/Yoloone/oneMoment/blob/master/img/m1.gif)
 2. 查看文章详情以及用户评论，收藏文章
-![](https://github.com/Yoloone/oneMoment/blob/master/img/m3.gif)
-
+![enter image description here](https://github.com/Yoloone/oneMoment/blob/master/img/m3.gif)
 3. 查看往期内容，可选择日期搜索
-![](https://github.com/Yoloone/oneMoment/blob/master/img/m2.gif)
-
+![enter image description here](https://github.com/Yoloone/oneMoment/blob/master/img/m2.gif)
 4. 查看推荐作者和热门作者，参看作者简介以及发表文章
-![](https://github.com/Yoloone/oneMoment/blob/master/img/m4.gif)
-
+![enter image description here](https://github.com/Yoloone/oneMoment/blob/master/img/m4.gif)
 5. 查看所有栏目分类，根据分类获取文章列表
-![](https://github.com/Yoloone/oneMoment/blob/master/img/m5.gif)
-
+![enter image description here](https://github.com/Yoloone/oneMoment/blob/master/img/m5.gif)
 6. 用户登录后，可收藏喜欢的文章，查看收藏列表
-![](https://github.com/Yoloone/oneMoment/blob/master/img/m6.gif)
+![enter image description here](https://github.com/Yoloone/oneMoment/blob/master/img/m6.gif)
