@@ -6,7 +6,7 @@ React仿豆瓣一刻webApp
 2. 脚手架-create-react-app
 3. 状态层管理-redux, react-redux
 4. 路由管理-react-router-dom
-5. 异步action-react-thunk
+5. 异步action-redux-thunk
 6. 网络请求-fetch
 7. 本地跨域代理-http-proxy-middleware 
 8. UI框架-antd
